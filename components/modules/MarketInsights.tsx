@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from '../ui/Card';
 import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer, Legend } from 'recharts';
-import { Check, X } from 'lucide-react';
+import { Check } from 'lucide-react';
 
 const marketShareData = [
   { name: 'Airbnb Only', value: 63 },
@@ -83,7 +83,7 @@ const MarketInsights: React.FC = () => {
                     <ResponsiveContainer width="100%" height="100%">
                         <PieChart>
                             <Pie data={marketShareData} cx="50%" cy="50%" innerRadius={40} outerRadius={60} fill="#8884d8" dataKey="value">
-                                {marketShareData.map((entry, index) => (
+                                {marketShareData.map((_, index) => (
                                     <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                                 ))}
                             </Pie>

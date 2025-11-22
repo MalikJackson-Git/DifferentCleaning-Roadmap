@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from '../ui/Card';
-import { MapPin, Star, Search } from 'lucide-react';
+import { Star, Search } from 'lucide-react';
 
 const LocalSEO: React.FC = () => {
   return (

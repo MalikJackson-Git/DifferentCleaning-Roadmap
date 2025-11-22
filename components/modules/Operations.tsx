@@ -1,6 +1,5 @@
 import React from 'react';
 import Card from '../ui/Card';
-import { Smartphone, Box, Truck } from 'lucide-react';
 
 const Operations: React.FC = () => {
   return (

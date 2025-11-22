@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { LayoutDashboard, Flag, TrendingUp, Building2, DollarSign, Home, Megaphone, MapPin, Settings, AlertTriangle, CalendarCheck } from 'lucide-react';
 import { ModuleId } from './types';
 import Sidebar from './components/Sidebar';
 import Dashboard from './components/modules/Dashboard';

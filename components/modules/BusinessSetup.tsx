@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Card from '../ui/Card';
 import { CheckSquare, Square, ExternalLink } from 'lucide-react';
 
 interface Task {

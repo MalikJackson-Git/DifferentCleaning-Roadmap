@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from '../ui/Card';
-import { Copy, Facebook, Mail, Phone } from 'lucide-react';
+import { Copy } from 'lucide-react';
 
 const Marketing: React.FC = () => {
   const copyToClipboard = (text: string) => {
